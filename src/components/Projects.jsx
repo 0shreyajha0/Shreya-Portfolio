@@ -48,7 +48,7 @@ const Projects = () => {
         "Database Management project to organise and manage details of event happening in college",
       learning:
         "Developed proficiency in utilizing Tailwind CSS, refining skills in creating responsive web designs.",
-      visitLink: "https://sanika03.github.io/Pricing-cards-page/src/index.html",
+      visitLink: "college-event-managment.vercel.app",
       sourceLink: "https://github.com/0shreyajha0/CollegeEventManagment",
     },
   ];
