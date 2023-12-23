@@ -3,65 +3,53 @@ import React from "react";
 const Projects = () => {
   const projects = [
     {
-      title: "SilkCraft",
+      title: "KanBan-Board",
       skills: "HTML | CSS | Javascript | React",
       about:
-        "An e-commerce platform showcasing Paithani silk sarees with mock backend, login and signup management functionality.",
+        "An e-platform to manage the ticktes asiigned in an organistaion, with functions like priority, status, assigned to whom etc.",
       learning:
         "Acquired React skills, learnt components organization, effectively utilized multiple hooks, and refined API call orchestration.",
-      visitLink: "https://silkcraft.vercel.app",
-      //sourceLink: 'https://github.com/Sanika03/silk-craft',
+      visitLink: "https://kanban-board-omega-beige.vercel.app",
+      sourceLink: "https://github.com/0shreyajha0/KanBan-board",
     },
     {
-      title: "BuzzShare",
-      skills: "HTML | CSS | Javascript | React",
+      title: "TackleTeam",
+      skills: "HTML | CSS | Javascript",
       about:
         "Created BuzzShare, a dynamic social media web-app with login/signup and personalized profiles and posts.",
       learning:
-        "Developed proficiency in writing optimized React code and implementing aesthetically pleasing color schemes.",
+        "Developed proficiency in writing optimized code and implementing aesthetically pleasing color schemes.",
       visitLink: "https://buzz-share.vercel.app",
-      //sourceLink: 'https://github.com/Sanika03/BuzzShare',
+      sourceLink: "https://github.com/0shreyajha0/TackleTeam",
     },
     {
-      title: "SwiftChat",
-      skills: "HTML | CSS | Javascript | Express.js | Socket.io",
+      title: "Portfolio",
+      skills: "HTML | CSS | Figma",
       about:
-        "Real-time chat app utilizing ChatGPT for dynamic online conversations, displaying active users.",
-      learning:
-        "Gained proficiency in directing ChatGPT and adeptly managed and modified its code for optimal utilization.",
-      visitLink: "https://swiftchat-ia0e.onrender.com",
-      //sourceLink: 'https://github.com/Sanika03/SwiftChat',
-    },
-    {
-      title: "100x App Layouts",
-      skills: "HTML | Tailwind CSS | Figma",
-      about:
-        "Showcasing screen layouts for the 100x app, a Twitter clone, meticulously designed with Figma styles.",
+        "A simple website showing my portfolio as a Environmental Engineer, meticulously designed with Figma styles.",
       learning:
         "Acquired the skill of writing pixel-perfect code based on Figma design files.",
-      visitLink:
-        "https://sanika03.github.io/100x-app-layouts/src/login/index.html",
-      //sourceLink: 'https://github.com/Sanika03/100x-app-layouts',
+      visitLink: "https://shreyaportfoliohtml.vercel.app/",
+      sourceLink: "https://github.com/0shreyajha0/portfolio",
     },
     {
-      title: "100x App Components",
-      skills: "HTML | Tailwind CSS | Figma",
-      about:
-        "Collection of components for the 100x app (Twitter clone) designed with Figma for seamless integration.",
+      title: "To-DO List",
+      skills: "HTML | SCSS | Figma",
+      about: "web application to manage your to do list.",
       learning:
         "Gained proficiency in crafting precise code from Figma designs, ensuring consistency across layouts and components.",
-      visitLink: "https://sanika03.github.io/100x-components/src/index.html",
-      //sourceLink: 'https://github.com/Sanika03/100x-components',
+      visitLink: "https://todo-rudrakaniya.vercel.app/",
+      sourceLink: "https://github.com/0shreyajha0/TODO-LIST",
     },
     {
-      title: "Pricing Cards Page",
-      skills: "HTML | Tailwind CSS | Figma",
+      title: "College Event Management",
+      skills: "HTML | CSS | Javascript | PHP ",
       about:
-        "Demo pricing card page crafted with Tailwind CSS for a sleek and responsive design.",
+        "Database Management project to organise and manage details of event happening in college",
       learning:
         "Developed proficiency in utilizing Tailwind CSS, refining skills in creating responsive web designs.",
       visitLink: "https://sanika03.github.io/Pricing-cards-page/src/index.html",
-      //sourceLink: 'https://github.com/Sanika03/Pricing-cards-page',
+      sourceLink: "https://github.com/0shreyajha0/CollegeEventManagment",
     },
   ];
 
