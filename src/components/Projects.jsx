@@ -34,12 +34,12 @@ const Projects = () => {
     },
     {
       title: "To-DO List",
-      skills: "HTML | SCSS | Figma",
+      skills: "React| JavaScript | HTML | SCSS | Figma",
       about: "web application to manage your to do list.",
       learning:
         "Gained proficiency in crafting precise code from Figma designs, ensuring consistency across layouts and components.",
-      visitLink: "https://todo-rudrakaniya.vercel.app/",
-      sourceLink: "https://github.com/0shreyajha0/TODO-LIST",
+      visitLink: "https://to-do-app-three-orcin.vercel.app/",
+      sourceLink: "https://github.com/0shreyajha0/ToDoApp",
     },
     {
       title: "College Event Management",
