@@ -3,6 +3,15 @@ import React from "react";
 const Projects = () => {
   const projects = [
     {
+      title: "To-DO App",
+      skills: "React| JavaScript | HTML | SCSS | Figma",
+      about: "web application to manage your to do list.",
+      learning:
+        "Learned how to use local storage of browser,Gained proficiency in crafting precise code from Figma designs, ensuring consistency across layouts and components.",
+      visitLink: "https://to-do-app-three-orcin.vercel.app/",
+      sourceLink: "https://github.com/0shreyajha0/ToDoApp",
+    },
+    {
       title: "KanBan-Board",
       skills: "HTML | CSS | Javascript | React",
       about:
@@ -11,6 +20,24 @@ const Projects = () => {
         "Acquired React skills, learnt components organization, effectively utilized multiple hooks, and refined API call orchestration.",
       visitLink: "https://kanban-board-omega-beige.vercel.app",
       sourceLink: "https://github.com/0shreyajha0/KanBan-board",
+    },
+    {
+      title: "NotePad",
+      skills: "Angular| JavaScript | HTML | SCSS | API",
+      about:
+        "Web application to work as a notepad uses local storage of browser to save data.",
+      learning:
+        "Gained proficiency in developing precise code with Angular, ensuring consistency across components.",
+      visitLink: "",
+      sourceLink: "",
+    },
+    {
+      title: "Currency-Converter",
+      skills: "Angular| JavaScript | BootStrap | HTML | SCSS | API",
+      about: "A Web-Applocation to change the currency from one unit to other",
+      learning: "",
+      visitLink: "https://to-do-app-three-orcin.vercel.app/",
+      sourceLink: "https://github.com/0shreyajha0/ToDoApp",
     },
     {
       title: "TackleTeam",
@@ -31,15 +58,6 @@ const Projects = () => {
         "Acquired the skill of writing pixel-perfect code based on Figma design files.",
       visitLink: "https://shreyaportfoliohtml.vercel.app/",
       sourceLink: "https://github.com/0shreyajha0/portfolio",
-    },
-    {
-      title: "To-DO List",
-      skills: "React| JavaScript | HTML | SCSS | Figma",
-      about: "web application to manage your to do list.",
-      learning:
-        "Gained proficiency in crafting precise code from Figma designs, ensuring consistency across layouts and components.",
-      visitLink: "https://to-do-app-three-orcin.vercel.app/",
-      sourceLink: "https://github.com/0shreyajha0/ToDoApp",
     },
     {
       title: "College Event Management",
