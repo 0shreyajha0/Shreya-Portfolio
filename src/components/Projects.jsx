@@ -23,7 +23,7 @@ const Projects = () => {
     },
     {
       title: "NotePad",
-      skills: "Angular| JavaScript | HTML | SCSS | API",
+      skills: "TypeScript| JavaScript | HTML | SCSS | API",
       about:
         "Web application to work as a notepad uses local storage of browser to save data.",
       learning:
