@@ -28,16 +28,16 @@ const Projects = () => {
         "Web application to work as a notepad uses local storage of browser to save data.",
       learning:
         "Gained proficiency in developing precise code with Angular, ensuring consistency across components.",
-      visitLink: "",
-      sourceLink: "",
+      visitLink: "working on it ",
+      sourceLink: "https://github.com/0shreyajha0/Notepad-angular",
     },
     {
       title: "Currency-Converter",
       skills: "Angular| JavaScript | BootStrap | HTML | SCSS | API",
-      about: "A Web-Applocation to change the currency from one unit to other",
-      learning: "",
-      visitLink: "https://to-do-app-three-orcin.vercel.app/",
-      sourceLink: "https://github.com/0shreyajha0/ToDoApp",
+      about: "A Web-Application to change the currency from one unit to other",
+      learning: "To implement API into web application",
+      visitLink: "https://currency-convertor-chi-opal.vercel.app/",
+      sourceLink: "https://github.com/0shreyajha0/currency-convertor",
     },
     {
       title: "TackleTeam",
