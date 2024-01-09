@@ -13,7 +13,7 @@ const Projects = () => {
     },
     {
       title: "KanBan-Board",
-      skills: "HTML | CSS | Javascript | React",
+      skills: "HTML | CSS | Javascript | React | API ",
       about:
         "An e-platform to manage the ticktes asiigned in an organistaion, with functions like priority, status, assigned to whom etc.",
       learning:
@@ -30,6 +30,16 @@ const Projects = () => {
         "Gained proficiency in developing precise code with Angular, ensuring consistency across components.",
       visitLink: "working on it ",
       sourceLink: "https://github.com/0shreyajha0/Notepad-angular",
+    },
+    {
+      title: "HealthCheck",
+      skills: "HTML | CSS | Javascript | React",
+      about:
+        "Web application to manager user's health uses local storage of browser to save data.",
+      learning:
+        "Gained proficiency in developing precise code with JavaScript, ensuring consistency across components.",
+      visitLink: "working on it ",
+      sourceLink: "https://github.com/0shreyajha0/HealthCheck",
     },
     {
       title: "Currency-Converter",
