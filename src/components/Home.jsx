@@ -4,8 +4,8 @@ import {
   faTwitter,
   faLinkedin,
   faGithub,
+  faMedium,
 } from "@fortawesome/free-brands-svg-icons";
-import { faMedium } from "react-icons/fa6";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const socialMediaLinks = [
@@ -43,7 +43,6 @@ const Home = () => {
               className="text-grape hover:text-black"
             >
               <FontAwesomeIcon icon={link.icon} size="lg" />
-              <faMedium />
             </a>
           ))}
         </div>
