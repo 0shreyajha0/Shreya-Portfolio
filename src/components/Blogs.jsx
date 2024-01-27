@@ -4,10 +4,18 @@ const Blogs = () => {
   const blogs = [
     {
       id: 1,
-      title: "Javascript errors: ReferenceError v/s TypeError",
+      title: "Javascript errors: SyntaxError v/s ReferenceError v/s TypeError",
       content:
         "A programmer has to write 1000s of lines of code and it is impossible to write 100% error-free code in one go. This article will help you avoid often-made errors in Javascript...",
-      link: "https://www.geeksforgeeks.org/complete-guide-to-dsa-for-beginners/?ref=ghm",
+      link: "https://medium.com/p/66f45b60e9ef",
+    },
+    {
+      id: 2,
+      title:
+        "The Intersection of Environmental Science and Tech: A Promising Future",
+      content:
+        "In our dynamic and ever-changing world, the marriage of environmental science and technology emerges as a powerful force, offering solutions to complex challenges and paving the way for sustainable development...",
+      link: "https://medium.com/p/2cf72d9a7818",
     },
   ];
 
