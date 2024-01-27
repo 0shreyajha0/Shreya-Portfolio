@@ -10,6 +10,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const socialMediaLinks = [
   { href: "https://twitter.com/_Shreyajha", icon: faTwitter },
+  { href: "https://medium.com/@0shreyajha0", icon: faMedium },
   {
     href: "https://www.linkedin.com/in/shreya-jha-b166a1212/",
     icon: faLinkedin,
@@ -42,6 +43,7 @@ const Home = () => {
               className="text-grape hover:text-black"
             >
               <FontAwesomeIcon icon={link.icon} size="lg" />
+              <faMedium />
             </a>
           ))}
         </div>
