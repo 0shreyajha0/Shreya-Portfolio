@@ -5,19 +5,18 @@ import {
   faLinkedin,
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
+import { FaMedium } from "react-icons/fa6";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const socialMediaLinks = [
   { href: "https://twitter.com/_Shreyajha", icon: faTwitter },
+  { href: "https://medium.com/@0shreyajha0", icon: FaMedium },
   {
     href: "https://www.linkedin.com/in/shreya-jha-b166a1212/",
     icon: faLinkedin,
   },
   { href: "https://github.com/0shreyajha0", icon: faGithub },
-  {
-    href: "mailto:email@0shreyajha0@gmail.com",
-    icon: faEnvelope,
-  },
+  { href: "mailto:email@0shreyajha0@gmail.com", icon: faEnvelope },
 ];
 
 const Home = () => {
