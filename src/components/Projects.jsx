@@ -1,4 +1,6 @@
 import React from "react";
+import ReactGA from "react-ga";
+import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
   const projects = [
@@ -81,6 +83,13 @@ const Projects = () => {
     },
   ];
 
+  const trackLinkClick = (label) => {
+    ReactGA.event({
+      category: "Project Link Click",
+      action: `User clicked the project link: ${label}`,
+    });
+  };
+
   return (
     <section
       id="projects"
@@ -91,48 +100,18 @@ const Projects = () => {
           PROJECTS
         </h2>
         <div className="flex flex-wrap -mx-2 mb-8">
-          {projects.map(
-            (
-              { title, skills, about, learning, visitLink, sourceLink },
-              index
-            ) => (
-              <div
-                key={index}
-                className="w-full md:w-1/2 lg:w-1/2 text-grape mb-10"
-              >
-                <div className="bg-cream p-6 border border-grape rounded-md mb-4 flex flex-col gap-3 h-full">
-                  <h3 className="text-[23px] font-archivo font-bold mb-2">
-                    {title}
-                  </h3>
-                  <p className="text-[13px] text-grape mb-2">{skills}</p>
-                  <div className="flex flex-col justify-between">
-                    <p className="text-base mb-4 font-medium">{about}</p>
-                    <p className="text-base mb-4 font-medium">
-                      <span className="font-bold">Learnings</span>: {learning}
-                    </p>
-                  </div>
-                  <div className="flex gap-4 text-grape">
-                    <a
-                      href={visitLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-sm underline hover:opacity-60"
-                    >
-                      Visit
-                    </a>
-                    <a
-                      href={sourceLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-sm underline hover:opacity-60"
-                    >
-                      View Source
-                    </a>
-                  </div>
-                </div>
-              </div>
-            )
-          )}
+          {projects.map((project, index) => (
+            <ProjectCard
+              key={index}
+              title={project.title}
+              skills={project.skills}
+              about={project.about}
+              learning={project.learning}
+              visitLink={project.visitLink}
+              sourceLink={project.sourceLink}
+              trackLinkClick={trackLinkClick}
+            />
+          ))}
         </div>
       </div>
     </section>
