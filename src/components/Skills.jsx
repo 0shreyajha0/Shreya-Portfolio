@@ -11,9 +11,12 @@ const Skills = () => {
     "Python",
     "React.js",
     "Angular.js",
+    "vite",
     "Git",
     "GitHub",
+    "Google Analytics",
     "AWS",
+    "Jira"
     "Figma",
     "Netlify/Vercel",
   ];
