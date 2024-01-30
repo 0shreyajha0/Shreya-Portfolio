@@ -16,7 +16,7 @@ const Skills = () => {
     "GitHub",
     "Google Analytics",
     "AWS",
-    "Jira"
+    "Jira",
     "Figma",
     "Netlify/Vercel",
   ];
